@@ -2,18 +2,18 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 
-namespace NickiDonut;
-
-class Donut
+namespace NickiDonut
 {
-    public string Name { get; set; }
-
-    public double Price { get; set; }
-
-    public Donut(string Name, double Price)
+    class Donut
     {
-        this.Name = Name;
+        public string Name { get; set; }
 
-        this.Price = Price;
+        public double Price { get; set; }
+
+        public Donut(string Name, double Price)
+        {
+            Name = name; 
+            Price = price;
+        }
     }
 }
