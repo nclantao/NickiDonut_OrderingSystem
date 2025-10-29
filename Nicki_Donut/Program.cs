@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 
-namespace NickiDonut;
-
-class Program
+namespace NickiDonut
 {
+    class Program
+    {
     static void Main(string[] args)
     {
         bool isExiting = false;
@@ -188,4 +188,6 @@ class Program
         }
     }
 }
+}
 
+    
